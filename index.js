@@ -28,10 +28,7 @@ connection.on("open", () => console.log("MongoDB Connected"));
 app.get("/", (req, res) =>
   res.send(`
 <div>
-<p>To get all mentor List - https://zen-assign-mentors.herokuapp.com/Mentors </p>
-<br>
-<p>To get all Students List - https://zen-assign-mentors.herokuapp.com/Students </p>
-<br>
+server is connected 
 </div>
 `)
 );
